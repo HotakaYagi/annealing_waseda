@@ -1,0 +1,25 @@
+{
+   "binary_polynomial": {
+      "terms": [{
+        "coefficient": 2,
+        "polynomials": [1, 2]
+      },
+      {
+        "coefficient": -4,
+        "polynomials": [2, 4]
+      }
+      ]
+    },
+    "fujitsuDA": {
+    "expert_mode": true,
+        "noise_model": "METROPOLIS",
+        "number_iterations": 200,
+        "number_runs": 128,
+        "offset_increase_rate": 100,
+        "temperature_decay": 0.001,
+        "temperature_interval": 50,
+        "temperature_mode": "INVERSE_ROOT",
+        "temperature_start": 10,
+        "solution_mode": "COMPLETE"
+    }
+}
